@@ -72,9 +72,11 @@ function App() {
       {/* Commit 7 */}
       <Divider />
       {/* Commit 8 */}
-      <Button color="secondary" fullWidth="true">
+       <Button color="primary" variant="contained" fullWidth="true"> {/*Commit 9 */}
           Сюда не нажимай
       </Button>
+      {/*Commit 9 */}
+      <Divider />
         {/* Commit 5 */}
       <form className={classes.container} noValidate>
       <TextField
