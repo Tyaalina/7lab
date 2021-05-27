@@ -41,6 +41,8 @@ function App() {
   return (
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
+          {/* Commit 4 */}
+      <Avatar alt="python">Py</Avatar>
           {/* Commit 3 */}
       <Button variant="contained" color="secondary">
           Нажми на эту кнопку
@@ -59,7 +61,8 @@ function App() {
             <VolumeUp />
           </Grid>
         </Grid>
-        <Avatar className={classes.orange}>VA</Avatar>
+        {/* Commit 4 */}
+        <Avatar className={classes.orange}></Avatar>
         {/* Commit 2 */}
         <TextField id="standard-basic" label="Имя" />
       </Paper>
