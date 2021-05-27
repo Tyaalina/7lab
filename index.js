@@ -59,6 +59,8 @@ function App() {
           </Grid>
         </Grid>
         <Avatar className={classes.orange}>VA</Avatar>
+        {/* Commit 2 */}
+        <TextField id="standard-basic" label="Имя" />
       </Paper>
     </div>
   );
