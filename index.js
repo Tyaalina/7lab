@@ -14,6 +14,8 @@ import TextField from '@material-ui/core/TextField';
 import Avatar from '@material-ui/core/Avatar';
 // Commit 7
 import Divider from '@material-ui/core/Divider';
+// Commit 10
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -91,6 +93,10 @@ function App() {
         }}
       />
     </form>
+    {/* Commit 10 */}
+    <Link href="#" onClick={preventDefault}>
+    Link
+  </Link>
     </div>
   );
 }
