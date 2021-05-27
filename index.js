@@ -71,7 +71,8 @@ function App() {
       <form className={classes.container} noValidate>
       <TextField
         id="date"
-        label="Birthday"
+        // Commit 6
+        label="Текущая дата"
         type="date"
         defaultValue="1999-05-10"
         className={classes.textField}
