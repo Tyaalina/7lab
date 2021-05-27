@@ -41,8 +41,9 @@ function App() {
   return (
     <div className={classes.root}>
       <Paper elevation={5} className={classes.paper}>
-      <Button variant="contained" disabled>
-          Кнопка не работает
+          {/* Commit 3 */}
+      <Button variant="contained" color="secondary">
+          Нажми на эту кнопку
         </Button>
         <Typography id="discrete-slider" color="primary" gutterBottom>
           Микшер громкости
