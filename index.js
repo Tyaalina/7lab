@@ -47,8 +47,9 @@ function App() {
       <Button variant="contained" color="secondary">
           Нажми на эту кнопку
         </Button>
+        {/* Commit 5 */}
         <Typography id="discrete-slider" color="primary" gutterBottom>
-          Микшер громкости
+          Увеличивай громкость
       </Typography>
         <Grid container spacing={2}>
           <Grid item>
@@ -66,6 +67,19 @@ function App() {
         {/* Commit 2 */}
         <TextField id="standard-basic" label="Имя" />
       </Paper>
+        {/* Commit 5 */}
+      <form className={classes.container} noValidate>
+      <TextField
+        id="date"
+        label="Birthday"
+        type="date"
+        defaultValue="1999-05-10"
+        className={classes.textField}
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+    </form>
     </div>
   );
 }
