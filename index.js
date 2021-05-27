@@ -12,6 +12,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import Avatar from '@material-ui/core/Avatar';
+// Commit 7
+import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,6 +69,8 @@ function App() {
         {/* Commit 2 */}
         <TextField id="standard-basic" label="Имя" />
       </Paper>
+      {/* Commit 7 */}
+      <Divider />
         {/* Commit 5 */}
       <form className={classes.container} noValidate>
       <TextField
